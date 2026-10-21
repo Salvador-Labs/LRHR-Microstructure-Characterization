@@ -1,0 +1,29 @@
+[
+  {
+    "input": "bedcbcbccaaz0a.npy",
+    "matching_target_rows": 1,
+    "closest_saved_prediction": [
+      0.3267401456832886,
+      "train",
+      24225
+    ]
+  },
+  {
+    "input": "bedcbcbccaaz0b.npy",
+    "matching_target_rows": 1,
+    "closest_saved_prediction": [
+      0.20677469670772552,
+      "train",
+      7147
+    ]
+  },
+  {
+    "input": "bedcbcbccaaz0j.npy",
+    "matching_target_rows": 1,
+    "closest_saved_prediction": [
+      0.32217228412628174,
+      "train",
+      21751
+    ]
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "source_volume_name": "bedcbcbccaaz0a.npy",
+    "volume_shape": [
+      248,
+      248,
+      248
+    ],
+    "image_shape": [
+      248,
+      248
+    ],
+    "slice_index": 124,
+    "low_resolution_shape": [
+      24,
+      24,
+      24
+    ],
+    "high_resolution_voxel_um": 0.05,
+    "low_resolution_voxel_um": 0.5,
+    "contrast": "A",
+    "phase_intensities": [
+      13500,
+      43500,
+      55500
+    ],
+    "raw_volume_sha256": "5dcfcc57b52c8ffb26ff9a1d8ea2d794c3c3a24671f38b06eb9a8e2602fe1a03",
+    "downsampling_verified": true,
+    "lrhr_original_split": "train",
+    "role": "installation/inference verification, not independent performance evaluation"
+  },
+  {
+    "source_volume_name": "bedcbcbccaaz0b.npy",
+    "volume_shape": [
+      248,
+      248,
+      248
+    ],
+    "image_shape": [
+      248,
+      248
+    ],
+    "slice_index": 124,
+    "low_resolution_shape": [
+      24,
+      24,
+      24
+    ],
+    "high_resolution_voxel_um": 0.05,
+    "low_resolution_voxel_um": 0.5,
+    "contrast": "A",
+    "phase_intensities": [
+      13500,
+      43500,
+      55500
+    ],
+    "raw_volume_sha256": "baac5dd76a316539248f90ab46b7c3def0ca40912c224e4b3ecfeb95b0b76cee",
+    "downsampling_verified": true,
+    "lrhr_original_split": "train",
+    "role": "installation/inference verification, not independent performance evaluation"
+  },
+  {
+    "source_volume_name": "bedcbcbccaaz0j.npy",
+    "volume_shape": [
+      248,
+      248,
+      248
+    ],
+    "image_shape": [
+      248,
+      248
+    ],
+    "slice_index": 124,
+    "low_resolution_shape": [
+      24,
+      24,
+      24
+    ],
+    "high_resolution_voxel_um": 0.05,
+    "low_resolution_voxel_um": 0.5,
+    "contrast": "A",
+    "phase_intensities": [
+      13500,
+      43500,
+      55500
+    ],
+    "raw_volume_sha256": "606b9f321376bc1cf8544588a9afc89800d9cf3e4c6da120786234afd05ec74a",
+    "downsampling_verified": true,
+    "lrhr_original_split": "train",
+    "role": "installation/inference verification, not independent performance evaluation"
+  }
+]

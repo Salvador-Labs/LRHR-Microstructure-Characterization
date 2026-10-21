@@ -1,0 +1,44 @@
+{
+  "model_id": "lrhr_0.75um_C",
+  "family": "LRHR",
+  "input_shape": [
+    1,
+    16,
+    16,
+    16
+  ],
+  "architecture": "c16,a1k2s2,c32,a1k2s2,c64,a1k2s2,c128,a1k2s2,d128,d64",
+  "output_count": 15,
+  "source_run": "version_79",
+  "high_resolution_voxel_um": 0.05,
+  "high_resolution_volume_shape": [
+    248,
+    248,
+    248
+  ],
+  "resolution_um": 0.75,
+  "contrast": "C",
+  "input_encoding": "raw synthetic XCT intensities",
+  "normalization_file": "normalization.csv",
+  "checkpoint_file": "model.ckpt",
+  "checkpoint_sha256": "87bbdf85fab54b66de4c3a6bdb029bde99f5db7c82fee7fc3e43eb57b8dee038",
+  "normalization_sha256": "1f8029af7c4a00926c57a5caf675a55577993d1576498b4ea86190d430f089c8",
+  "best_epoch_zero_based": 12039,
+  "original_lightning_version": "1.9.3",
+  "training": {
+    "epochs": 20000,
+    "batch_size": 32,
+    "learning_rate": 0.0001,
+    "seed": 42,
+    "optimizer": "Adam",
+    "loss": "MSE",
+    "scheduler": "constant",
+    "gamma": 1.0,
+    "gamma_step": 10,
+    "validation_fraction": 0.2,
+    "augmentation": "static axis permutations and flips",
+    "augmentation_factor": 4,
+    "phase_swap": false,
+    "split_policy": "explicit saved manifest; keep job groups together"
+  }
+}

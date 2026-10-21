@@ -1,0 +1,53 @@
+[
+  {
+    "input": "bedcbcbccaaz0a.npy",
+    "max_abs_normalized_error": 0.105587899684906,
+    "orientation": [
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        false,
+        false,
+        true
+      ]
+    ],
+    "archive_combined_row": 24225
+  },
+  {
+    "input": "bedcbcbccaaz0b.npy",
+    "max_abs_normalized_error": 0.1300545632839203,
+    "orientation": [
+      [
+        1,
+        0,
+        2
+      ],
+      [
+        true,
+        true,
+        true
+      ]
+    ],
+    "archive_combined_row": 7147
+  },
+  {
+    "input": "bedcbcbccaaz0j.npy",
+    "max_abs_normalized_error": 0.13798189163208008,
+    "orientation": [
+      [
+        2,
+        1,
+        0
+      ],
+      [
+        true,
+        false,
+        true
+      ]
+    ],
+    "archive_combined_row": 21751
+  }
+]
